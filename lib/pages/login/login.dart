@@ -129,7 +129,7 @@ class _LoginPageState extends State<LoginPage> {
                                      Navigator.push(context, PageRouteBuilder(pageBuilder: (_,__,___) => const ContentPages()));
                                   }
                               })();
-                            }
+                            } 
                             FocusScope.of(context).requestFocus(FocusNode());
                           },
                       child: const Text("Se connecter")
